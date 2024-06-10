@@ -233,7 +233,7 @@
                         <button class="">SHOP NOW</button>
                     </div>
                 </div>
-            </div>
+            </div>s
         </div>
     </section>
 
