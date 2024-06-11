@@ -29,6 +29,10 @@
 </template>
 
 <style scoped>
+a{
+    color:white;
+    text-decoration: none;
+}
 .firstNav{
     display: flex;
     align-items: center;
@@ -71,6 +75,11 @@ button{
     display: flex;
     justify-content: end;
     gap:5rem;
+}
+@media screen and (max-width:880px){
+    .firstNav{
+       display: none;
+    }
 }
 
 </style>
