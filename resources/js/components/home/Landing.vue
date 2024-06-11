@@ -233,7 +233,7 @@
                         <button class="">SHOP NOW</button>
                     </div>
                 </div>
-            </div>s
+            </div>
         </div>
     </section>
 
@@ -249,8 +249,7 @@
                     </div>
                 </div>
                 <div class="row text-white desc">
-
-                    New South Wales | Liquor Act 2007: No Alcohol can be sold or supplied to anyone under 18. It's
+                  <p>  New South Wales | Liquor Act 2007: No Alcohol can be sold or supplied to anyone under 18. It's
                     against the law. ACT | Liquor Act 2010: It is an offence to supply alcohol to a person under the age
                     of 18 years. Penalties apply. Victoria | Liquor Control Reform Act 1998: WARNING - Under the Liquor
                     Control Reform Act 1998 it is an offence to supply alcohol to a person under the age of 18 years
@@ -263,7 +262,7 @@
                     It is an offence to supply liquor to a person under the age of 18 years. Tasmania | Liquor Licensing
                     Act 1990: It is an offence for liquor to be delivered to a person under the age of 18 years.
                     Penalty: Fine not exceeding 20 penalty units. It is an offence for a person under the age of 18
-                    years to purchase liquor. Penalty: Fine not exceeding 10 penalty units. ABN 77 159 767 843.
+                    years to purchase liquor. Penalty: Fine not exceeding 10 penalty units. ABN 77 159 767 843.</p>
 
                 </div>
             </div>
@@ -408,7 +407,6 @@
         padding: 5px;
         border-radius: 10px;
         box-shadow: 0px 0px 5px 0px gray;
-
     }
 
     .daily .content img {
@@ -455,7 +453,45 @@
     }
 
     .footer .desc {
-        max-width: 50%;
-        margin: auto;
+        max-width: 100%;
+        display: grid;
+        justify-content: center;
+    }
+    @media screen and (max-width:830px){
+        img{
+            max-width: 100%;
+            height: auto;
+        }
+        .delivery .content{
+            display: flex;
+            justify-content: center;
+
+        }
+        .delivery .content>div {
+            max-width: 20rem;
+        }
+        .delivery img{
+            width: 100%;
+            height: auto;
+        }
+        .catalog > div{
+            max-width: 15rem;
+        }
+        .catalog .content img{
+            max-width: 20rem;
+            text-align: center;
+        }
+        .catalog .image{
+            display: grid;
+            justify-content: center;
+        }
+        footer .content .row{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        footer .desc{
+            max-width: 100%;
+        }
+
     }
 </style>
